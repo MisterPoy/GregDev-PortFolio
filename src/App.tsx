@@ -7,9 +7,13 @@ import {
   Contact,
   Navigation,
   Footer,
+  AboutMe
 } from "./components";
 import FadeIn from './components/FadeIn';
 import './index.scss';
+
+
+
 
 function App() {
     const [mode, setMode] = useState<string>('dark');
@@ -31,6 +35,7 @@ function App() {
         <Navigation parentToChild={{mode}} modeChange={handleModeChange}/>
         <FadeIn transitionDuration={700}>
             <Main/>
+            <AboutMe/>
             <Expertise/>
             <Timeline/>
             <Project/>

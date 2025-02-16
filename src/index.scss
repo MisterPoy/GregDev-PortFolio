@@ -1,3 +1,9 @@
+$text: rgb(234, 240, 246);
+$background: rgb(14, 16, 27);
+$primary: rgb(163, 184, 215);
+$secondary: rgb(113, 16, 137);
+$accent: rgb(188, 103, 141);
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -9,14 +15,14 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace !important;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace !important;
   font-size: 1rem !important;
 }
 
 .main-container {
   position: relative;
-  background-color: #0d1116;
-
+  background-color: #0e101b;
 }
 
 a {
@@ -25,17 +31,26 @@ a {
 
 a:hover {
   color: #5000ca;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
 }
 
-p, a, h1, h2, h3, h4, h5, label, button {
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+label,
+button {
   color: white;
   font-family: "Lato", sans-serif;
 }
 
 .navigation-bar {
   justify-content: space-between;
-  background-color: #0d1116;
+  background-color: #0e101b;
 
   button {
     font-size: 1.1rem;
@@ -50,8 +65,9 @@ p, a, h1, h2, h3, h4, h5, label, button {
 }
 
 .navigation-bar-responsive {
-  span, p {
-    color: #0d1116;
+  span,
+  p {
+    color: #0e101b;
     font-family: "Lato", sans-serif;
   }
 }
@@ -99,17 +115,26 @@ p, a, h1, h2, h3, h4, h5, label, button {
     background-color: #f8f9fa;
   }
 
-  p, a, h1, h2, h3, h4, h5, label, button {
-    color: #0d1116;
+  p,
+  a,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  label,
+  button {
+    color: #0e101b;
   }
 
   a:hover {
     color: #5000ca;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out;
   }
 
   .navigation-bar svg {
-    color: #0d1116;
+    color: #0e101b;
   }
 
   .about-section {
@@ -117,12 +142,13 @@ p, a, h1, h2, h3, h4, h5, label, button {
   }
 
   .skills-container svg {
-    color: #0d1116;
+    color: #0e101b;
   }
 
   .chip {
     background-color: rgba(0, 0, 0, 0.08);
-    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+      0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
   }
 
   .vertical-timeline::before {
@@ -130,10 +156,13 @@ p, a, h1, h2, h3, h4, h5, label, button {
   }
 
   .vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
-    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+      0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
   }
 
-  .vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+  .vertical-timeline--two-columns
+    .vertical-timeline-element-content
+    .vertical-timeline-element-date {
     color: gray;
   }
 
@@ -142,7 +171,7 @@ p, a, h1, h2, h3, h4, h5, label, button {
   }
 
   .flex-chips .chip-title {
-    color: #0d1116;
+    color: #0e101b;
   }
 }
 
