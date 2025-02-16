@@ -11,6 +11,7 @@ import {
 } from "./components";
 import FadeIn from './components/FadeIn';
 import './index.scss';
+import { Carousel } from "./components/Caroussel";
 
 
 
@@ -35,9 +36,12 @@ function App() {
         <Navigation parentToChild={{mode}} modeChange={handleModeChange}/>
         <FadeIn transitionDuration={700}>
             <Main/>
+            <div className="aboutAndExpertiseContainer">
             <AboutMe/>
             <Expertise/>
+            </div>
             <Timeline/>
+           {/*  <Carousel /> */}
             <Project/>
             <Contact/>
         </FadeIn>

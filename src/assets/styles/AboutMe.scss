@@ -1,15 +1,39 @@
 @use "colorVar" as v;
 
 #aboutMe {
+  text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: v.$background;
+  
   background-size: cover;
   color: white;
-  text-align: center;
+  text-align: left;
+  
+  /* background-color: #181232; */
+ /*  background-image: linear-gradient(
+    55deg,
+    hsl(230deg 31% 11%) 0%,
+    hsl(240deg 27% 12%) 16%,
+    hsl(248deg 29% 13%) 31%,
+    hsl(254deg 31% 13%) 45%,
+    hsl(259deg 32% 13%) 56%,
+    hsl(263deg 34% 13%) 66%,
+    hsl(267deg 35% 14%) 75%,
+    hsl(269deg 37% 14%) 82%,
+    hsl(272deg 38% 14%) 87%,
+    hsl(274deg 39% 14%) 92%,
+    hsl(275deg 41% 15%) 95%,
+    hsl(277deg 42% 15%) 98%,
+    hsl(278deg 43% 15%) 100%
+  ); */
+  background: transparent;
   .aboutH2 {
+    margin: 0;
+    background-color: #a5abd7;
+    background-clip: border-box;
+    width: 100%;
     font-size: 3rem;
   }
   .aboutContent {
@@ -20,7 +44,7 @@
     .aboutPara {
       padding: 3rem;
       width: 80%;
-      background-color: v.$secondary;
+      background-color: #452f6a;
       border-radius:15px;
     }
     .aboutPara:hover {

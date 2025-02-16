@@ -1,85 +1,122 @@
-.skills-container {
-    padding: 5% 10%;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+#expertise {
+   /*  background-color: #181232; */
+    /* background-image: linear-gradient(
+    55deg,
+    hsl(230deg 31% 11%) 0%,
+    hsl(240deg 27% 12%) 16%,
+    hsl(248deg 29% 13%) 31%,
+    hsl(254deg 31% 13%) 45%,
+    hsl(259deg 32% 13%) 56%,
+    hsl(263deg 34% 13%) 66%,
+    hsl(267deg 35% 14%) 75%,
+    hsl(269deg 37% 14%) 82%,
+    hsl(272deg 38% 14%) 87%,
+    hsl(274deg 39% 14%) 92%,
+    hsl(275deg 41% 15%) 95%,
+    hsl(277deg 42% 15%) 98%,
+    hsl(278deg 43% 15%) 100%
+  ); */
+  background: transparent;
+}
 
-    svg {
-        color: white;
-    }
+.skills-container {
+  margin: 5% 10%;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  /* background-color: #141726; */
+  background-image: linear-gradient(
+    55deg,
+    hsl(259deg 69% 33%) 0%,
+    hsl(263deg 69% 34%) 16%,
+    hsl(266deg 69% 34%) 31%,
+    hsl(269deg 69% 35%) 45%,
+    hsl(272deg 69% 35%) 56%,
+    hsl(274deg 69% 36%) 66%,
+    hsl(276deg 69% 36%) 75%,
+    hsl(278deg 69% 37%) 82%,
+    hsl(280deg 69% 37%) 87%,
+    hsl(281deg 69% 37%) 92%,
+    hsl(283deg 69% 38%) 95%,
+    hsl(284deg 69% 38%) 98%,
+    hsl(285deg 69% 39%) 100%
+  );
+  border-radius: 15px;
+
+  svg {
+    color: #e2e6fa;
+  }
 }
-  
+
 .skills-container .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
 }
-  
+
 .skills-container .skills-grid .skill {
-    align-items: center;
-    text-align: left;
+  align-items: center;
+  text-align: left;
 }
-  
+
 .chip {
-    color: rgb(39, 40, 34) !important;
-    background-color: white !important;
-    font-size: 0.8rem !important;
-    height: 25px !important;
-  
-    span {
-        font-family: 'Courier Prime', monospace;
-        color: rgb(39, 40, 34);
-    }
-  
-    svg {
-        height: 15px !important;
-    }
+  color: rgb(39, 40, 34) !important;
+  background-color: white !important;
+  font-size: 0.8rem !important;
+  height: 25px !important;
+
+  span {
+    font-family: "Courier Prime", monospace;
+    color: rgb(39, 40, 34);
+  }
+
+  svg {
+    height: 15px !important;
+  }
 }
 
 .flex-chips {
-    line-height: 2;
-    margin: 0.5;
+  line-height: 2;
+  margin: 0.5;
 
-    .chip-title {
-        color: white;
-        padding-right: 10px;
-    }
+  .chip-title {
+    color: white;
+    padding-right: 10px;
+  }
 }
 
 .flex-chips .MuiChip-root {
-    margin-right: 0.5em;
+  margin-right: 0.5em;
 }
 
 .flex-chips .MuiChip-outlined {
-    background-color: #e0e0e0;
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-        monospace;
+  background-color: #e0e0e0;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 .flex-chips .MuiChip-outlined span {
-    color: rgb(39, 40, 34);
+  color: rgb(39, 40, 34);
 }
 
 @media screen {
-    @media (max-width: 768px) {
-        .skills-container {
-            display: block;
-            padding-left: 5%;
-            padding-right: 5%;
-        }
-    
-        .skills-container .skills-grid {
-            display: initial;
-        }
-        
-        .skills-container .skills-grid .skill {
-            padding-bottom: 5%;
-        }
+  @media (max-width: 768px) {
+    .skills-container {
+      display: block;
+      padding-left: 5%;
+      padding-right: 5%;
     }
 
-    @media (max-width: 567px) {
-        .skills {
-            font-size: 12px;
-        }
+    .skills-container .skills-grid {
+      display: initial;
     }
+
+    .skills-container .skills-grid .skill {
+      padding-bottom: 5%;
+    }
+  }
+
+  @media (max-width: 567px) {
+    .skills {
+      font-size: 12px;
+    }
+  }
 }

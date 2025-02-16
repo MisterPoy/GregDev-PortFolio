@@ -1,6 +1,6 @@
 import React from "react";
 
-import Conspiration from "../assets/images/Conspiration.jpg";
+
 import "../assets/styles/AboutMe.scss";
 
 function AboutMe() {

@@ -11,20 +11,20 @@ function Main() {
       <div className="about-section">
         <div className="image-wrapper">
           <img src={MOI} alt="Avatar" />
-        </div>
-        <div className="content">
           <div className="social_icons">
             <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
-          <h1>Poupaux Grégory</h1>
-          <p>Front End Engineer</p>
-          <p></p>
-
           <div className="mobile_social_icons">
             <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
+        </div>
+        <div className="content">
+          
+          <h1>Poupaux Grégory</h1>
+          <h2 >Développeur Front-End,</h2><p> spécialisé en UX/UI et accessibilité</p>
+          
         </div>
       </div>
     </div>
