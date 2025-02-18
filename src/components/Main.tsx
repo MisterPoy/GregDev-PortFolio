@@ -12,8 +12,8 @@ function Main() {
         <div className="image-wrapper">
           <img src={MOI} alt="Avatar" />
           <div className="social_icons">
-            <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="https://github.com/MisterPoy" target="_blank" rel="noreferrer"><GitHubIcon/></a>
+            <a href="https://www.linkedin.com/in/grégory-poupaux-270622328" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
           <div className="mobile_social_icons">
             <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a>
