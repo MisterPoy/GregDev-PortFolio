@@ -4,8 +4,7 @@
 
 .about-section {
   display: flex;
-
-  
+  gap: 2rem;
   align-items: center;
   justify-content: space-around;
   width: 100%;
@@ -25,11 +24,11 @@
   height: 100vh;
   text-align: left;
   z-index: 2;
-  display: flex;  
+  display: flex;
   margin-top: 22rem;
   h1 {
     text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
-    font-size: 5.5rem;
+    font-size: 5rem;
   }
   h2 {
     text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
@@ -61,7 +60,7 @@
       /* text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black; */
       font-weight: 900;
       transform: scale(1.1);
-      transition: all 0.250s ease-out;
+      transition: all 0.25s ease-out;
     }
   }
   .social_icons {
@@ -91,7 +90,7 @@
   }
 }
 .light-mode .about-section .image-wrapper img {
-  box-shadow: -2px -1px 19px -5px rgba(0,0,0,0.49);
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.5);
 }
 .about p {
   text-align: center;
@@ -137,16 +136,20 @@
       padding-right: 5%;
       font-size: 12px;
     }
+    
   }
 
   @media (max-width: 768px) {
-    .about-section h1 {
-      font-size: 4em !important;
+    .about-section .content h1 {
+      font-size: 3em !important;
       text-align: left;
     }
-
-    .about-section p {
-      text-align: left;
+.about-section .content h2 {
+  font-size: 1.5rem;
+}
+    .about-section .content p {
+      text-align: center;
+      font-size: 1rem;
     }
 
     .container {
@@ -156,7 +159,9 @@
           padding-left: 0;
         }
         .content {
-          .title-content h1, h2, p {
+          .title-content h1,
+          h2,
+          p {
             text-align: center;
           }
           max-width: 85%;
@@ -183,7 +188,7 @@
 
     .about-section {
       padding-top: 6rem;
-     flex-direction: column;
+      flex-direction: column;
       padding-left: 0px;
       padding-right: 0px;
     }
@@ -202,11 +207,9 @@
   }
 }
 @media (max-width: 1024px) {
-
-.about-section {
-
- .content {
-  max-width: 50%;
- }
-}
+  .about-section {
+    .content {
+      max-width: 50%;
+    }
+  }
 }

@@ -1,8 +1,6 @@
 @use "colorVar" as v;
 
 #aboutMe {
-  
-  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -33,14 +31,14 @@
   background: transparent;
   .fa-rocket {
     margin-right: 0.5em;
-    text-shadow: 0px 0px 10px rgba(215, 41, 166, 0.95); 
-    transition: transform 0.250s ease-out;
+
+    transition: all 0.25s ease-out;
     &:hover {
-      
+      text-shadow: 0px 0px 10px rgba(215, 41, 166, 0.95);
       transform: scale(1.1);
-    } 
+    }
   }
-    
+
   .aboutH2 {
     margin: 0;
     padding: 2rem 5rem 2rem 5rem;
@@ -58,7 +56,7 @@
     align-items: center;
     margin-bottom: 3rem;
     position: relative;
-    width: 50%;
+    width: 100%;
     height: 25vh;
     cursor: zoom-in;
     span {
@@ -67,26 +65,26 @@
     .aboutPara {
       position: absolute;
       padding: 3rem;
-      width: 80%;      
-      transition: all 0.250s ease-out;
+      width: 80%;
+      transition: all 0.25s ease-out;
       border-radius: 15px;
       background-image: linear-gradient(
-    40deg,
-    hsl(264deg 100% 40%) 0%,
-    hsl(265deg 99% 41%) 30%,
-    hsl(267deg 99% 42%) 45%,
-    hsl(268deg 99% 42%) 56%,
-    hsl(269deg 98% 43%) 64%,
-    hsl(270deg 98% 44%) 70%,
-    hsl(271deg 98% 45%) 76%,
-    hsl(272deg 98% 46%) 80%,
-    hsl(273deg 98% 47%) 84%,
-    hsl(274deg 98% 47%) 88%,
-    hsl(274deg 98% 48%) 91%,
-    hsl(275deg 98% 49%) 94%,
-    hsl(276deg 98% 50%) 97%,
-    hsl(276deg 99% 50%) 100%
-  );
+        40deg,
+        hsl(264deg 100% 40%) 0%,
+        hsl(265deg 99% 41%) 30%,
+        hsl(267deg 99% 42%) 45%,
+        hsl(268deg 99% 42%) 56%,
+        hsl(269deg 98% 43%) 64%,
+        hsl(270deg 98% 44%) 70%,
+        hsl(271deg 98% 45%) 76%,
+        hsl(272deg 98% 46%) 80%,
+        hsl(273deg 98% 47%) 84%,
+        hsl(274deg 98% 47%) 88%,
+        hsl(274deg 98% 48%) 91%,
+        hsl(275deg 98% 49%) 94%,
+        hsl(276deg 98% 50%) 97%,
+        hsl(276deg 99% 50%) 100%
+      );
       /* background-image: linear-gradient(
         40deg,
         hsl(256deg 44% 25%) 0%,
@@ -102,7 +100,7 @@
         hsl(270deg 55% 26%) 97%,
         hsl(271deg 56% 26%) 99%,
         hsl(272deg 57% 26%) 100%
-      );  */   
+      );  */
       /* background-color: rgba(64, 26, 143, .5); */
       /* background-image: linear-gradient(
     55deg,
@@ -120,15 +118,12 @@
     hsl(284deg 69% 38%) 98%,
     hsl(285deg 69% 39%) 100%
   ); */
-      
-      
     }
     .aboutPara:hover {
       /* text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black; */
-      font-weight: 900;
-      transform: scale(1.1);
-      transition: all 0.250s ease-in-out;     
-      
+
+      transform: scale(1.02);
+      transition: all 0.25s ease-in-out;
     }
   }
 }
@@ -206,39 +201,57 @@
 .list-container {
   display: flex;
   justify-content: space-evenly;
-  gap: 2rem;
+  gap: 3rem;
   background-color: #1a253a;
-  height: 50vh;
-  padding: 2rem;
+
+  padding: 3rem;
   i {
-    
-    transition: transform 0.250s ease-out;
-    
+    transition: transform 0.25s ease-out;
+
     &:hover {
-      
-      transform: scale(1.1);
-    } 
-    
+      transform: scale(1.5);
+    }
   }
   .fa-lightbulb:hover {
-    text-shadow: 0px 0px 10px rgba(241, 226, 13, 0.85); 
+    text-shadow: 0px 0px 10px rgba(241, 226, 13, 0.85);
   }
-  
+  .fa-handshake:hover {
+    text-shadow: 0px 0px 10px rgba(43, 189, 87, 0.95);
+  }
   .aboutCard {
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
+    i {
+      margin-right: 0.5rem;
     }
     background-color: #1a253a;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 35%;
+    width: 40%;
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      line-height: 2rem;
+    }
     .skills {
       display: flex;
       flex-direction: column;
       gap: 10px;
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .list-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    .aboutCard {
+      width: 100%;
+    }
+  }
+  .aboutContent {
+
   }
 }

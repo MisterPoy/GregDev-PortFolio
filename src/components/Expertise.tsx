@@ -6,6 +6,7 @@ import Chip from "@mui/material/Chip";
 import "../assets/styles/Expertise.scss";
 import NextIcon from "../assets/images/nextjs-icon.png";
 import ReactIcon from "../assets/images/React.png"
+import NextSvg from "../assets/images/nextjs-icon-svgrepo-com.svg"
 
 const labelsFirst = [
   "React",
@@ -56,6 +57,7 @@ function Expertise() {
               <i><img className="react-icon" src={ReactIcon} alt="" /></i>
               <FontAwesomeIcon icon={faGithub} size="3x" />
               <i><img className="next-icon" src={NextIcon} alt="" /></i>
+              <i><img className="next-icon" src={NextSvg} alt="" /></i>
             </div>
             <h3>Développeur Front-End, spécialisé en UX/UI et accessibilité</h3>
             <p>

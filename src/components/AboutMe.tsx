@@ -5,6 +5,7 @@ import "../assets/styles/AboutMe.scss";
 function AboutMe() {
   return (
     <div className="aboutMe-container bg-origin-border" id="aboutMe">
+      <div>
       <h2 className="aboutH2">
         <i className="fa-solid fa-rocket"></i>
         De l’ambulance au code : un parcours guidé par l’humain et la précision
@@ -17,6 +18,7 @@ function AboutMe() {
           <strong>chaque détail compte.</strong> Aujourd’hui, je mets cette
           rigueur et cette empathie au service du web.
         </p>
+        </div>
         {/* 
         <span>
           En tant que développeur front-end, je ne me contente pas d’écrire du
