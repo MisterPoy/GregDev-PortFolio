@@ -3,6 +3,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../assets/styles/Main.scss';
 import MOI from '../assets/images/MOI.png'
+import { Carousel } from "./Caroussel";
 
 function Main() {
 
@@ -27,6 +28,7 @@ function Main() {
           </div>
         </div>
       </div>
+      
     </div>
   );
 }
