@@ -140,6 +140,9 @@
   }
 
   @media (max-width: 768px) {
+    .about-section {
+      gap: 0;
+    }
     .about-section .content h1 {
       font-size: 3em !important;
       text-align: left;

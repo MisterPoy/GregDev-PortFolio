@@ -39,6 +39,63 @@ function Timeline() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
+            date="Octobre 2021 - Avril 2023"
+            iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Chauffeur livreur
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              SDGC - Biguglia, Corse
+            </h4>
+            <p>
+              - Capacité à planifier efficacement des itinéraires et à optimiser
+              les tournées
+              <br />- Gestion des stocks, suivi et optimisation
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Octobre 2018 - Octobre 2021"
+            iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Ambulancier</h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Ambulances de la Marana - Lucciana, Corse
+            </h4>
+            <p>
+              - Transport et prise en charge des patients, y compris en
+              situations d'urgence
+              <br />
+              - Gestion du stress et communication efficace en équipe
+              <br />- Maintenance des véhicules et du matériel médical
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Juillet 2018 - Septembre 2018"
+            iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Ambulancier</h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Ambulances MATELLI - Bastia, Corse
+            </h4>
+            <p>
+              Équipe de Garde Préfectorale
+              <br />
+              - Intervention rapide en situations d'urgence
+              <br />
+              - Collaboration étroite avec les services de secours et les
+              hôpitaux
+              <br />- Gestion administrative et rédaction de rapports
+              d'intervention
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
             date="Août 2012 - sept 2016"
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
@@ -59,33 +116,6 @@ function Timeline() {
               - Gestion de base de données clients et suivi des dossiers
               <br />
             </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="Juillet 2018 - Septembre 2018"
-            iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">
-              Ambulancier
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">Ambulances MATELLI - Bastia, Corse</h4>
-            <p>Équipe de Garde Préfectorale<br/>
-- Intervention rapide en situations d'urgence<br/>
-- Collaboration étroite avec les services de secours et les hôpitaux<br/>
-- Gestion administrative et rédaction de rapports d'intervention</p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2020"
-            iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">
-              Data Analyst Intern
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
-            <p>Automation, Data Governance, Statistical Analysis</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
