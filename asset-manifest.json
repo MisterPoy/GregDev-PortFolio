@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GregDev-PortFolio/static/css/main.4fe564f8.css",
-    "main.js": "/GregDev-PortFolio/static/js/main.305b9555.js",
+    "main.css": "/GregDev-PortFolio/static/css/main.eff6579a.css",
+    "main.js": "/GregDev-PortFolio/static/js/main.77bb4ee9.js",
     "static/js/453.b05d8aa5.chunk.js": "/GregDev-PortFolio/static/js/453.b05d8aa5.chunk.js",
     "static/media/mock10.png": "/GregDev-PortFolio/static/media/mock10.2d05b02ba569a430a255.png",
     "static/media/mock09.png": "/GregDev-PortFolio/static/media/mock09.e18677ccfc932e52d754.png",
@@ -24,14 +24,13 @@
     "static/media/fa-regular-400.woff2": "/GregDev-PortFolio/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
     "static/media/fa-v4compatibility.ttf": "/GregDev-PortFolio/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/GregDev-PortFolio/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
-    "static/media/nextjs-icon-svgrepo-com.svg": "/GregDev-PortFolio/static/media/nextjs-icon-svgrepo-com.e3c042b9d9d809ebb67e9bc6e1e5f70d.svg",
     "index.html": "/GregDev-PortFolio/index.html",
-    "main.4fe564f8.css.map": "/GregDev-PortFolio/static/css/main.4fe564f8.css.map",
-    "main.305b9555.js.map": "/GregDev-PortFolio/static/js/main.305b9555.js.map",
+    "main.eff6579a.css.map": "/GregDev-PortFolio/static/css/main.eff6579a.css.map",
+    "main.77bb4ee9.js.map": "/GregDev-PortFolio/static/js/main.77bb4ee9.js.map",
     "453.b05d8aa5.chunk.js.map": "/GregDev-PortFolio/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fe564f8.css",
-    "static/js/main.305b9555.js"
+    "static/css/main.eff6579a.css",
+    "static/js/main.77bb4ee9.js"
   ]
 }
