@@ -1,18 +1,20 @@
 @use "colorVar" as v;
 
 #aboutMe {
-  text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+  
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
   background-size: cover;
   color: white;
   text-align: left;
-  
+  padding-top: 3rem;
+  overflow: visible;
+
   /* background-color: #181232; */
- /*  background-image: linear-gradient(
+  /*  background-image: linear-gradient(
     55deg,
     hsl(230deg 31% 11%) 0%,
     hsl(240deg 27% 12%) 16%,
@@ -29,27 +31,195 @@
     hsl(278deg 43% 15%) 100%
   ); */
   background: transparent;
+  .fa-rocket {
+    margin-right: 0.5em;
+    text-shadow: 4px 4px 10px rgba(215,41,166,0.45);  }
+    &:hover {
+      /* transform: scale(1.1); */
+    }
   .aboutH2 {
     margin: 0;
-    background-color: #a5abd7;
+    padding: 2rem 5rem 2rem 5rem;
+
     background-clip: border-box;
     width: 100%;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    text-align: center;
   }
   .aboutContent {
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3rem;
+    position: relative;
+    width: 50%;
+    height: 25vh;
+    cursor: zoom-in;
+    span {
+      width: 100%;
+    }
     .aboutPara {
+      position: absolute;
       padding: 3rem;
-      width: 80%;
-      background-color: #452f6a;
-      border-radius:15px;
+      width: 80%;      
+      transition: all 0.250s ease-out;
+      border-radius: 15px;
+      background-image: linear-gradient(
+        40deg,
+        hsl(256deg 44% 25%) 0%,
+        hsl(258deg 45% 25%) 16%,
+        hsl(260deg 46% 25%) 32%,
+        hsl(261deg 47% 25%) 46%,
+        hsl(263deg 48% 25%) 59%,
+        hsl(264deg 49% 25%) 69%,
+        hsl(266deg 50% 25%) 78%,
+        hsl(267deg 51% 26%) 85%,
+        hsl(268deg 53% 26%) 90%,
+        hsl(269deg 54% 26%) 94%,
+        hsl(270deg 55% 26%) 97%,
+        hsl(271deg 56% 26%) 99%,
+        hsl(272deg 57% 26%) 100%
+      );    
+      /* background-color: rgba(64, 26, 143, .5); */
+      /* background-image: linear-gradient(
+    55deg,
+    hsl(259deg 69% 33%) 0%,
+    hsl(263deg 69% 34%) 16%,
+    hsl(266deg 69% 34%) 31%,
+    hsl(269deg 69% 35%) 45%,
+    hsl(272deg 69% 35%) 56%,
+    hsl(274deg 69% 36%) 66%,
+    hsl(276deg 69% 36%) 75%,
+    hsl(278deg 69% 37%) 82%,
+    hsl(280deg 69% 37%) 87%,
+    hsl(281deg 69% 37%) 92%,
+    hsl(283deg 69% 38%) 95%,
+    hsl(284deg 69% 38%) 98%,
+    hsl(285deg 69% 39%) 100%
+  ); */
+      
+      
     }
     .aboutPara:hover {
-      background-color: rgba(64, 26, 143, .5);
+      /* text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black; */
+      font-weight: 900;
+      transform: scale(1.1);
+      transition: all 0.250s ease-out;
+      background-image: linear-gradient(
+        40deg,
+        hsl(256deg 44% 25%) 0%,
+        hsl(258deg 45% 25%) 06%,
+        hsl(260deg 46% 25%) 22%,
+        hsl(261deg 47% 25%) 36%,
+        hsl(263deg 48% 25%) 49%,
+        hsl(264deg 49% 25%) 59%,
+        hsl(266deg 50% 25%) 68%,
+        hsl(267deg 51% 26%) 75%,
+        hsl(268deg 53% 26%) 80%,
+        hsl(269deg 54% 26%) 84%,
+        hsl(270deg 55% 26%) 87%,
+        hsl(271deg 56% 26%) 89%,
+        hsl(272deg 57% 26%) 90%
+      ); 
+      
     }
   }
-  
+}
+.section {
+  color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #141e30, #243b55); // Fond sombre amélioré
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); // Effet d'ombre léger
+  transition: background 0.3s ease-in-out;
+
+  &:hover {
+    background: linear-gradient(
+      135deg,
+      #1a253a,
+      #2a456b
+    ); // Léger effet highlight au survol
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    i {
+      color: #ffcc00; // Couleur des icônes des titres
+    }
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.7rem;
+      margin-bottom: 0.5rem;
+      transition: transform 0.2s ease-in-out;
+
+      i {
+        color: #00d1ff; // Couleur des icônes de la liste
+      }
+
+      &:hover {
+        transform: scale(1.05);
+        color: #ffcc00; // Surbrillance légère au survol
+      }
+    }
+  }
+
+  .contact {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.8rem;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+
+    i {
+      color: #ff4d4d; // Icône email en rouge doux
+    }
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+  }
+}
+.listContainer {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  background-color: #1a253a;
+  height: 50vh;
+  padding: 2rem;
+  .aboutCard {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    background-color: #1a253a;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 35%;
+    .skills {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
 }
