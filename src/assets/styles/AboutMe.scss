@@ -242,6 +242,9 @@
 }
 
 @media (max-width: 768px) {
+  #aboutMe .aboutH2 {
+    font-size: 1.5rem;
+  }
   .list-container {
     flex-direction: column;
     align-items: center;
@@ -252,7 +255,6 @@
     }
   }
   #aboutMe .aboutContent {
-    height: 65vh;
-      }
+    height: 45vh;
+  }
 }
-
