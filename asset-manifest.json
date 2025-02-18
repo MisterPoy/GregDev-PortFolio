@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/GregDev-PortFolio/static/css/main.eff6579a.css",
+    "main.css": "/GregDev-PortFolio/static/css/main.1de3a5b5.css",
     "main.js": "/GregDev-PortFolio/static/js/main.77bb4ee9.js",
     "static/js/453.b05d8aa5.chunk.js": "/GregDev-PortFolio/static/js/453.b05d8aa5.chunk.js",
     "static/media/mock10.png": "/GregDev-PortFolio/static/media/mock10.2d05b02ba569a430a255.png",
@@ -25,12 +25,12 @@
     "static/media/fa-v4compatibility.ttf": "/GregDev-PortFolio/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/GregDev-PortFolio/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/GregDev-PortFolio/index.html",
-    "main.eff6579a.css.map": "/GregDev-PortFolio/static/css/main.eff6579a.css.map",
+    "main.1de3a5b5.css.map": "/GregDev-PortFolio/static/css/main.1de3a5b5.css.map",
     "main.77bb4ee9.js.map": "/GregDev-PortFolio/static/js/main.77bb4ee9.js.map",
     "453.b05d8aa5.chunk.js.map": "/GregDev-PortFolio/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eff6579a.css",
+    "static/css/main.1de3a5b5.css",
     "static/js/main.77bb4ee9.js"
   ]
 }
