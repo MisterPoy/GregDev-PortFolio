@@ -2,7 +2,7 @@ import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../assets/styles/Main.scss';
-import MOI from '../assets/images/MOIB&W.png'
+import MOI from '../assets/images/MOI.png'
 
 function Main() {
 
@@ -21,10 +21,10 @@ function Main() {
           </div>
         </div>
         <div className="content">
-          
+          <div className="title-content">
           <h1>Poupaux Grégory</h1>
           <h2 >Développeur Front-End,</h2><p> spécialisé en UX/UI et accessibilité</p>
-          
+          </div>
         </div>
       </div>
     </div>

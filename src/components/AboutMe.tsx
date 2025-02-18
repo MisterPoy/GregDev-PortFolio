@@ -17,7 +17,7 @@ function AboutMe() {
           <strong>chaque détail compte.</strong> Aujourd’hui, je mets cette
           rigueur et cette empathie au service du web.
         </p>
-{/* 
+        {/* 
         <span>
           En tant que développeur front-end, je ne me contente pas d’écrire du
           code :
@@ -72,7 +72,7 @@ function AboutMe() {
           📩 Envie d’échanger ? Contactez-moi pour discuter de votre projet !
         </span> */}
       </div>
-      <div className="listContainer">
+      <div className="list-container">
         <div className="aboutCard">
           <h2>
             <i className="fa-solid fa-lightbulb"></i> En tant que développeur

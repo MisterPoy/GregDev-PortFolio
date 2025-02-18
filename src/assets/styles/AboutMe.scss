@@ -33,10 +33,14 @@
   background: transparent;
   .fa-rocket {
     margin-right: 0.5em;
-    text-shadow: 4px 4px 10px rgba(215,41,166,0.45);  }
+    text-shadow: 0px 0px 10px rgba(215, 41, 166, 0.95); 
+    transition: transform 0.250s ease-out;
     &:hover {
-      /* transform: scale(1.1); */
-    }
+      
+      transform: scale(1.1);
+    } 
+  }
+    
   .aboutH2 {
     margin: 0;
     padding: 2rem 5rem 2rem 5rem;
@@ -67,6 +71,23 @@
       transition: all 0.250s ease-out;
       border-radius: 15px;
       background-image: linear-gradient(
+    40deg,
+    hsl(264deg 100% 40%) 0%,
+    hsl(265deg 99% 41%) 30%,
+    hsl(267deg 99% 42%) 45%,
+    hsl(268deg 99% 42%) 56%,
+    hsl(269deg 98% 43%) 64%,
+    hsl(270deg 98% 44%) 70%,
+    hsl(271deg 98% 45%) 76%,
+    hsl(272deg 98% 46%) 80%,
+    hsl(273deg 98% 47%) 84%,
+    hsl(274deg 98% 47%) 88%,
+    hsl(274deg 98% 48%) 91%,
+    hsl(275deg 98% 49%) 94%,
+    hsl(276deg 98% 50%) 97%,
+    hsl(276deg 99% 50%) 100%
+  );
+      /* background-image: linear-gradient(
         40deg,
         hsl(256deg 44% 25%) 0%,
         hsl(258deg 45% 25%) 16%,
@@ -81,7 +102,7 @@
         hsl(270deg 55% 26%) 97%,
         hsl(271deg 56% 26%) 99%,
         hsl(272deg 57% 26%) 100%
-      );    
+      );  */   
       /* background-color: rgba(64, 26, 143, .5); */
       /* background-image: linear-gradient(
     55deg,
@@ -106,23 +127,7 @@
       /* text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black; */
       font-weight: 900;
       transform: scale(1.1);
-      transition: all 0.250s ease-out;
-      background-image: linear-gradient(
-        40deg,
-        hsl(256deg 44% 25%) 0%,
-        hsl(258deg 45% 25%) 06%,
-        hsl(260deg 46% 25%) 22%,
-        hsl(261deg 47% 25%) 36%,
-        hsl(263deg 48% 25%) 49%,
-        hsl(264deg 49% 25%) 59%,
-        hsl(266deg 50% 25%) 68%,
-        hsl(267deg 51% 26%) 75%,
-        hsl(268deg 53% 26%) 80%,
-        hsl(269deg 54% 26%) 84%,
-        hsl(270deg 55% 26%) 87%,
-        hsl(271deg 56% 26%) 89%,
-        hsl(272deg 57% 26%) 90%
-      ); 
+      transition: all 0.250s ease-in-out;     
       
     }
   }
@@ -198,13 +203,27 @@
     }
   }
 }
-.listContainer {
+.list-container {
   display: flex;
   justify-content: space-evenly;
   gap: 2rem;
   background-color: #1a253a;
   height: 50vh;
   padding: 2rem;
+  i {
+    
+    transition: transform 0.250s ease-out;
+    
+    &:hover {
+      
+      transform: scale(1.1);
+    } 
+    
+  }
+  .fa-lightbulb:hover {
+    text-shadow: 0px 0px 10px rgba(241, 226, 13, 0.85); 
+  }
+  
   .aboutCard {
     ul {
       list-style: none;
