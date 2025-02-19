@@ -42,28 +42,16 @@
     hsl(275deg 98% 49%) 94%,
     hsl(276deg 98% 50%) 97%,
     hsl(276deg 99% 50%) 100%
-  );
-  /* background-image: linear-gradient(
-    55deg,
-    hsl(259deg 69% 33%) 0%,
-    hsl(263deg 69% 34%) 16%,
-    hsl(266deg 69% 34%) 31%,
-    hsl(269deg 69% 35%) 45%,
-    hsl(272deg 69% 35%) 56%,
-    hsl(274deg 69% 36%) 66%,
-    hsl(276deg 69% 36%) 75%,
-    hsl(278deg 69% 37%) 82%,
-    hsl(280deg 69% 37%) 87%,
-    hsl(281deg 69% 37%) 92%,
-    hsl(283deg 69% 38%) 95%,
-    hsl(284deg 69% 38%) 98%,
-    hsl(285deg 69% 39%) 100%
-  ); */
+  ); 
   border-radius: 15px;
-
+  box-shadow: 0px 5px 20px -15px rgba(0, 0, 0, 0.75);
   svg {
     color: #e2e6fa;
   }
+}
+.light-mode .skills-container {
+  background-color: #F8F9FA;
+  background-image: none;
 }
 
 .skills-container .skills-grid {
@@ -79,6 +67,18 @@
 .icon-container {
   display: flex;
   gap: 0.5rem;
+  
+  img {
+    filter: invert(100%) sepia(1%) saturate(2972%) hue-rotate(55deg) brightness(112%) contrast(101%);
+    transition: transform 0.25s ease-out;
+    &:hover {
+      transform: scale(1.5);
+      overflow: visible;
+    }
+  }  
+}
+.light-mode .icon-container img {
+  filter: none;
 }
 .chip {
   color: rgb(39, 40, 34) !important;

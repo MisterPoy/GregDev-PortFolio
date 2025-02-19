@@ -38,6 +38,7 @@
       transform: scale(1.1);
     }
   }
+  
 
   .aboutH2 {
     margin: 0;
@@ -85,39 +86,6 @@
         hsl(276deg 98% 50%) 97%,
         hsl(276deg 99% 50%) 100%
       );
-      /* background-image: linear-gradient(
-        40deg,
-        hsl(256deg 44% 25%) 0%,
-        hsl(258deg 45% 25%) 16%,
-        hsl(260deg 46% 25%) 32%,
-        hsl(261deg 47% 25%) 46%,
-        hsl(263deg 48% 25%) 59%,
-        hsl(264deg 49% 25%) 69%,
-        hsl(266deg 50% 25%) 78%,
-        hsl(267deg 51% 26%) 85%,
-        hsl(268deg 53% 26%) 90%,
-        hsl(269deg 54% 26%) 94%,
-        hsl(270deg 55% 26%) 97%,
-        hsl(271deg 56% 26%) 99%,
-        hsl(272deg 57% 26%) 100%
-      );  */
-      /* background-color: rgba(64, 26, 143, .5); */
-      /* background-image: linear-gradient(
-    55deg,
-    hsl(259deg 69% 33%) 0%,
-    hsl(263deg 69% 34%) 16%,
-    hsl(266deg 69% 34%) 31%,
-    hsl(269deg 69% 35%) 45%,
-    hsl(272deg 69% 35%) 56%,
-    hsl(274deg 69% 36%) 66%,
-    hsl(276deg 69% 36%) 75%,
-    hsl(278deg 69% 37%) 82%,
-    hsl(280deg 69% 37%) 87%,
-    hsl(281deg 69% 37%) 92%,
-    hsl(283deg 69% 38%) 95%,
-    hsl(284deg 69% 38%) 98%,
-    hsl(285deg 69% 39%) 100%
-  ); */
     }
     .aboutPara:hover {
       /* text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black; */
@@ -127,13 +95,26 @@
     }
   }
 }
+.light-mode #aboutMe .aboutContent .aboutPara {
+  background-color: white;
+  background-image: none;
+
+  box-shadow:  0px 5px 20px -15px rgba(0, 0, 0, 0.75);
+}
+.light-mode #aboutMe .fa-rocket {
+  color: #5000CA;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
+  &:hover {
+        
+  }
+}
 .section {
   color: #ffffff;
   padding: 2rem;
   border-radius: 8px;
   background: linear-gradient(135deg, #141e30, #243b55); // Fond sombre amélioré
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); // Effet d'ombre léger
-  transition: background 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 
   &:hover {
     background: linear-gradient(
@@ -210,23 +191,23 @@
 
     &:hover {
       transform: scale(1.5);
+      text-shadow: 0px 0px 10px rgba(241, 226, 13, 0.85);
     }
   }
-  .fa-lightbulb:hover {
+  /* .fa-lightbulb:hover {
     text-shadow: 0px 0px 10px rgba(241, 226, 13, 0.85);
   }
   .fa-handshake:hover {
     text-shadow: 0px 0px 10px rgba(43, 189, 87, 0.95);
-  }
+  } */
   .aboutCard {
-    i {
-      margin-right: 0.5rem;
-    }
-    background-color: #1a253a;
     display: flex;
     flex-direction: column;
     gap: 10px;
     width: 40%;
+    i {
+      margin-right: 0.5rem;
+    }
     ul {
       list-style: none;
       padding: 0;
@@ -237,6 +218,18 @@
       display: flex;
       flex-direction: column;
       gap: 10px;
+    }
+  }
+}
+.light-mode .list-container {
+  background-color: #f8f9fa;
+  ul {
+    color: black;
+  }
+  i {
+    color: #5000CA;
+    &:hover {     
+      text-shadow: none;
     }
   }
 }

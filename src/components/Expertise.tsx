@@ -5,8 +5,10 @@ import { faGithub, faReact } from "@fortawesome/free-brands-svg-icons";
 import Chip from "@mui/material/Chip";
 import "../assets/styles/Expertise.scss";
 import NextIcon from "../assets/images/nextjs-icon.png";
-import ReactIcon from "../assets/images/React.png"
-import NextSvg from "../assets/images/nextjs-icon-svgrepo-com.svg"
+import ReactIcon from "../assets/images/React.png";
+import NextSvgIcon from "../assets/images/NextIcon.svg";
+import TypeScriptIcon from "../assets/images/typescript.png";
+import GitHubIcon from "../assets/images/github.png";
 
 const labelsFirst = [
   "React",
@@ -22,28 +24,6 @@ const labelsFirst = [
   "Postman",
 ];
 
-/* const labelsSecond = [
-    "Git",
-    "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
-];
-
-const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
-]; */
-
 function Expertise() {
   return (
     <div className="container" id="expertise">
@@ -52,12 +32,22 @@ function Expertise() {
         <div className="skills-grid">
           <div className="skill">
             <div className="icon-container">
-              <FontAwesomeIcon icon={faReact} size="3x" />
-              <FontAwesomeIcon icon={faReact} size="3x" />
-              <i><img className="react-icon" src={ReactIcon} alt="" /></i>
-              <FontAwesomeIcon icon={faGithub} size="3x" />
-              <i><img className="next-icon" src={NextIcon} alt="" /></i>
-           
+              <img className="react-icon" src={ReactIcon} alt="" />
+              <img
+                src={TypeScriptIcon}
+                alt="NextJs icon"
+                className="NextSvgIcon"
+              />
+              <img
+                src={NextSvgIcon}
+                alt="NextJs icon"
+                className="NextSvgIcon"
+              />
+              <img
+                src={GitHubIcon}
+                alt="NextJs icon"
+                className="NextSvgIcon"
+              />
             </div>
             <h3>Développeur Front-End, spécialisé en UX/UI et accessibilité</h3>
             <p>
