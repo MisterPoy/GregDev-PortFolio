@@ -97,6 +97,11 @@
   padding-top: 30%;
   padding-bottom: 30%;
 }
+.title-content {
+  display: flex;
+  flex-direction: column;
+  
+}
 
 @media screen {
   @media (max-width: 567px) {
@@ -142,6 +147,9 @@
   @media (max-width: 768px) {
     .about-section {
       gap: 0;
+      .title-content {        
+        justify-content: space-between;
+      }
     }
     .about-section .content h1 {
       font-size: 3em !important;
