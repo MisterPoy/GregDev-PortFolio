@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GregDev-PortFolio/static/css/main.90817668.css",
-    "main.js": "/GregDev-PortFolio/static/js/main.ce203402.js",
+    "main.css": "/GregDev-PortFolio/static/css/main.e2298cb8.css",
+    "main.js": "/GregDev-PortFolio/static/js/main.bb2c4ea3.js",
     "static/js/453.b05d8aa5.chunk.js": "/GregDev-PortFolio/static/js/453.b05d8aa5.chunk.js",
     "static/media/mock10.png": "/GregDev-PortFolio/static/media/mock10.2d05b02ba569a430a255.png",
     "static/media/mock09.png": "/GregDev-PortFolio/static/media/mock09.e18677ccfc932e52d754.png",
@@ -19,6 +19,7 @@
     "static/media/fa-brands-400.ttf": "/GregDev-PortFolio/static/media/fa-brands-400.1815e00441357e01619e.ttf",
     "static/media/mock03.png": "/GregDev-PortFolio/static/media/mock03.a4600719e0b5d2a3155b.png",
     "static/media/fa-solid-900.woff2": "/GregDev-PortFolio/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/TailWind.png": "/GregDev-PortFolio/static/media/TailWind.5feea661a2c2cdb5856b.png",
     "static/media/fa-brands-400.woff2": "/GregDev-PortFolio/static/media/fa-brands-400.c210719e60948b211a12.woff2",
     "static/media/fa-regular-400.ttf": "/GregDev-PortFolio/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
     "static/media/fa-regular-400.woff2": "/GregDev-PortFolio/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
@@ -26,12 +27,12 @@
     "static/media/fa-v4compatibility.woff2": "/GregDev-PortFolio/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "static/media/NextIcon.svg": "/GregDev-PortFolio/static/media/NextIcon.e3c042b9d9d809ebb67e9bc6e1e5f70d.svg",
     "index.html": "/GregDev-PortFolio/index.html",
-    "main.90817668.css.map": "/GregDev-PortFolio/static/css/main.90817668.css.map",
-    "main.ce203402.js.map": "/GregDev-PortFolio/static/js/main.ce203402.js.map",
+    "main.e2298cb8.css.map": "/GregDev-PortFolio/static/css/main.e2298cb8.css.map",
+    "main.bb2c4ea3.js.map": "/GregDev-PortFolio/static/js/main.bb2c4ea3.js.map",
     "453.b05d8aa5.chunk.js.map": "/GregDev-PortFolio/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90817668.css",
-    "static/js/main.ce203402.js"
+    "static/css/main.e2298cb8.css",
+    "static/js/main.bb2c4ea3.js"
   ]
 }
