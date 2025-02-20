@@ -1,14 +1,12 @@
 import React from "react";
 import "@fortawesome/free-regular-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faReact } from "@fortawesome/free-brands-svg-icons";
 import Chip from "@mui/material/Chip";
 import "../assets/styles/Expertise.scss";
-import NextIcon from "../assets/images/nextjs-icon.png";
 import ReactIcon from "../assets/images/React.png";
 import NextSvgIcon from "../assets/images/NextIcon.svg";
 import TypeScriptIcon from "../assets/images/typescript.png";
 import GitHubIcon from "../assets/images/github.png";
+import TailWindIcon from "../assets/images/TailWind.png"
 
 const labelsFirst = [
   "React",
@@ -17,11 +15,11 @@ const labelsFirst = [
   "HTML5",
   "CSS3",
   "SASS",
-  "Flask",
-  "Python",
-  "SQL",
-  "PostgreSQL",
+  "Tailwind",
+  "NextJs",
+  "API RESTful",
   "Postman",
+  "Swagger",
 ];
 
 function Expertise() {
@@ -46,7 +44,12 @@ function Expertise() {
               <img
                 src={GitHubIcon}
                 alt="NextJs icon"
-                className="NextSvgIcon"
+                className="blabla"
+              />
+              <img
+                src={TailWindIcon}
+                alt="NextJs icon"
+                className="blabla"
               />
             </div>
             <h3>Développeur Front-End, spécialisé en UX/UI et accessibilité</h3>

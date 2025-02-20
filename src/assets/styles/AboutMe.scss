@@ -103,7 +103,7 @@
 }
 .light-mode #aboutMe .fa-rocket {
   color: #5000CA;
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.50);
   &:hover {
         
   }
@@ -148,9 +148,7 @@
       margin-bottom: 0.5rem;
       transition: transform 0.2s ease-in-out;
 
-      i {
-        color: #00d1ff; // Couleur des icônes de la liste
-      }
+      
 
       &:hover {
         transform: scale(1.05);
@@ -194,12 +192,7 @@
       text-shadow: 0px 0px 10px rgba(241, 226, 13, 0.85);
     }
   }
-  /* .fa-lightbulb:hover {
-    text-shadow: 0px 0px 10px rgba(241, 226, 13, 0.85);
-  }
-  .fa-handshake:hover {
-    text-shadow: 0px 0px 10px rgba(43, 189, 87, 0.95);
-  } */
+ 
   .aboutCard {
     display: flex;
     flex-direction: column;
@@ -228,8 +221,9 @@
   }
   i {
     color: #5000CA;
+    
     &:hover {     
-      text-shadow: none;
+      text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
     }
   }
 }

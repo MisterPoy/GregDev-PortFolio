@@ -78,7 +78,7 @@
   }  
 }
 .light-mode .icon-container img {
-  filter: none;
+  filter: invert(12%) sepia(97%) saturate(5793%) hue-rotate(267deg) brightness(74%) contrast(123%);
 }
 .chip {
   color: rgb(39, 40, 34) !important;
