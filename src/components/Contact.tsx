@@ -1,4 +1,3 @@
-import React, { useRef, useState } from "react";
 import "../assets/styles/Contact.scss";
 
 import Button from "@mui/material/Button";

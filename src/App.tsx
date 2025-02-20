@@ -11,7 +11,7 @@ import {
 } from "./components";
 import FadeIn from './components/FadeIn';
 import './index.scss';
-import { Carousel } from "./components/Caroussel";
+
 
 
 
