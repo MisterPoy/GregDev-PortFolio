@@ -58,7 +58,7 @@ function Expertise() {
               accessibles, je conçois des interfaces élégantes, intuitives et
               performantes. Fort d’un œil aiguisé pour le design et d’une
               maîtrise des technologies modernes, je veille à produire un code
-              optimisé, scalable et respectueux des bonnes pratiques UX/UI.
+              optimisé, scalable et respectueux des bonnes pratiques UX/UI et d'accessibilité.
             </p>
             <div className="flex-chips">
               <span className="chip-title">Tech stack:</span>
