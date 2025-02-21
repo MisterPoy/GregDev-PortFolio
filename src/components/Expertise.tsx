@@ -6,7 +6,7 @@ import ReactIcon from "../assets/images/React.png";
 import NextSvgIcon from "../assets/images/NextIcon.svg";
 import TypeScriptIcon from "../assets/images/typescript.png";
 import GitHubIcon from "../assets/images/github.png";
-import TailWindIcon from "../assets/images/TailWind.png"
+import TailWindIcon from "../assets/images/TailWind.png";
 
 const labelsFirst = [
   "React",
@@ -20,13 +20,15 @@ const labelsFirst = [
   "API RESTful",
   "Postman",
   "Swagger",
+  "Photoshop",
+  "Krita"
 ];
 
 function Expertise() {
   return (
     <div className="container" id="expertise">
       <div className="skills-container">
-        <h1>Expertise & Savoir-Faire</h1>
+        <h1>Compétences</h1>
         <div className="skills-grid">
           <div className="skill">
             <div className="icon-container">
@@ -41,24 +43,38 @@ function Expertise() {
                 alt="NextJs icon"
                 className="NextSvgIcon"
               />
-              <img
-                src={GitHubIcon}
-                alt="NextJs icon"
-                className="blabla"
-              />
-              <img
-                src={TailWindIcon}
-                alt="NextJs icon"
-                className="blabla"
-              />
+              <img src={GitHubIcon} alt="NextJs icon" className="blabla" />
+              <img src={TailWindIcon} alt="NextJs icon" className="blabla" />
             </div>
-            <h3>Développeur Front-End, spécialisé en UX/UI et accessibilité</h3>
+            <h2>Développeur Front-End, spécialisé en UX/UI et accessibilité</h2>
+            <h3>
+              Développement Front-End Moderne :
+            </h3>
             <p>
-              Passionné par la création d’expériences utilisateur fluides et
-              accessibles, je conçois des interfaces élégantes, intuitives et
-              performantes. Fort d’un œil aiguisé pour le design et d’une
-              maîtrise des technologies modernes, je veille à produire un code
-              optimisé, scalable et respectueux des bonnes pratiques UX/UI et d'accessibilité.
+              
+              Création d'interfaces performantes et maintenables avec React,
+              Next.js et TypeScript.
+            </p>
+
+            <h3>
+              Design Graphique & Créatif :
+            </h3>
+            <p>
+              
+              Passion pour le dessin, la composition visuelle et l’illustration
+              avec Photoshop, Krita et tablette graphique.
+            </p>
+            <h3>
+              Accessibilité Web :
+            </h3>
+            <p> Conception de sites inclusifs respectant les normes WCAG.</p>
+            <h3>
+              Design Responsive & UI/UX :
+            </h3>
+            <p>
+    
+              Réalisation d’interfaces élégantes et adaptatives avec Tailwind
+              CSS et SCSS.
             </p>
             <div className="flex-chips">
               <span className="chip-title">Tech stack:</span>
@@ -67,30 +83,6 @@ function Expertise() {
               ))}
             </div>
           </div>
-
-          {/* <div className="skill">
-                    <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsSecond.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
-                    </div>
-                </div> */}
-
-          {/* <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsThird.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
-                    </div>
-                </div> */}
         </div>
       </div>
     </div>

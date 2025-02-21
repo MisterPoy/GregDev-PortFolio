@@ -18,61 +18,7 @@ function AboutMe() {
           <strong>chaque détail compte.</strong> Aujourd’hui, je mets cette
           rigueur et cette empathie au service du web.
         </p>
-        </div>
-        {/* 
-        <span>
-          En tant que développeur front-end, je ne me contente pas d’écrire du
-          code :
-        </span>
-
-        <span>
-          {" "}
-          ✔️ Je conçois des interfaces fluides et engageantes, en plaçant
-          toujours l’utilisateur au cœur du projet.
-        </span>
-
-        <span>
-          {" "}
-          ✔️ Je rends le web plus accessible, car un site bien conçu doit être
-          utilisable par tous.
-        </span>
-
-        <span>
-          {" "}
-          ✔️ Je soigne chaque détail graphique, avec un œil affûté pour l’UX/UI,
-          hérité de ma passion pour le design et mon expertise sur Photoshop et
-          Krita.
-        </span>
-
-        <span> 💡 Pourquoi travailler avec moi ?</span>
-
-        <span>
-          Une double casquette : un développeur qui comprend aussi l’esthétique
-          et l’expérience utilisateur.
-        </span>
-
-        <span> Une curiosité insatiable et une capacité à apprendre vite.</span>
-
-        <span>
-          Un esprit d’analyse affûté, forgé par des années à résoudre des
-          problèmes humains et techniques.{" "}
-        </span>
-
-        <span>Un engagement fort pour la qualité et l’optimisation.</span>
-        <span>
-          {" "}
-          🎯 Stack technique : HTML, CSS, SASS (Pixel-perfect & Responsive)
-        </span>
-        <span>
-          {" "}
-          JavaScript, React (Composants réutilisables & performance){" "}
-        </span>
-        <span> Git, GitHub, npm (Collaboration et workflow optimisé) </span>
-        <span> ccessibilité (WCAG), SEO & animations CSS avancées </span>
-        <span>
-          {" "}
-          📩 Envie d’échanger ? Contactez-moi pour discuter de votre projet !
-        </span> */}
+        </div>      
       </div>
       <div className="list-container">
         <div className="aboutCard">

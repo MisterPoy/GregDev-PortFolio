@@ -1,0 +1,37 @@
+[
+  {
+    "title": "GregDev Portfolio",
+    "description": "Création d'un portfolio moderne et responsive pour présenter mes projets et compétences.",
+    "challenge": "Challenges : Utilisation de TypeScript pour une gestion stricte des types, intégration de SCSS pour un design sur-mesure, et mise en œuvre de composants réutilisables avec React.",
+    "imgUrl": "assets/images/kasa.png",
+    "linkUrl": "https://misterpoy.github.io/GregDev-PortFolio/"
+  },
+  {
+    "title": "KasaApp",
+    "description": "Développement d'une plateforme React pour la location de logements entre particuliers.",
+    "challenge": "Challenges : Création d'une interface dynamique, gestion des routes avec React Router, et intégration responsive des maquettes Figma.",
+    "imgUrl": "assets/images/kasa.png",
+    "linkUrl": "https://kasa-arvphcnvt-mrpoys-projects.vercel.app/"
+  },
+  {
+    "title": "Portfolio Sophie Bruel",
+    "description": "Création d'un portfolio interactif pour présenter des projets architecturaux",
+    "challenge": "Challenges : Intégration d'une API REST, gestion des rôles utilisateur/admin, et respect des bonnes pratiques front-end.",
+    "imgUrl": "assets/images/kasa.png",
+    "linkUrl": "https://github.com/MisterPoy/Portfolio-architecte-sophie-bluel"
+  },
+  {
+    "title": "Ohmyfood",
+    "description": "Application mobile \"food finder\" en React Js. Positionnement des menus de restaurants, avec animations CSS avancées.",
+    "challenge": "Challenges : Création d'une interface dynamique, gestion des routes avec React Router, et intégration responsive des maquettes Figma.",
+    "imgUrl": "assets/images/OhMyFood.png",
+    "linkUrl": "https://misterpoy.github.io/OhMyFood/"
+  },
+  {
+    "title": "GregDev-LinkTree",
+    "description": "Création d'une page de liens personnels élégante et responsive - React & Next.js.",
+    "challenge": "Challenges : Intégration et personnalisation de composants Shadcn UI, design moderne avec Tailwind CSS, et structure modulaire avec React et Next.js.",
+    "imgUrl": "assets/images/linkTree.png",
+    "linkUrl": "https://whimsical-dieffenbachia-697b85.netlify.app/"
+  }
+]

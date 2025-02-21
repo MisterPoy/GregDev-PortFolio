@@ -63,17 +63,17 @@ function Contact() {
               />
               <TextField
                 required
-                type="mail"
+                type="text"
                 id="outlined-email"
-                label="Email"
-                placeholder="Votre e-mail ?"
+                label="Email/Téléphone"
+                placeholder="E-mail/Télephone ?"
                 value={email}
                 onChange={(e) => {
                   setEmail(e.target.value);
                 }}
                 error={emailError}
                 helperText={
-                  emailError ? "Merci d'entrer votre adresse e-mail" : ""
+                  emailError ? "Merci d'entrer votre adresse e-mail ou votre numéro de téléphone" : ""
                 }
               />
             </div>
@@ -81,7 +81,7 @@ function Contact() {
               required
               id="outlined-multiline-static"
               label="Message"
-              placeholder="Une questions, un avis ?"
+              placeholder="Une question, un avis ?"
               multiline
               rows={10}
               className="body-form"

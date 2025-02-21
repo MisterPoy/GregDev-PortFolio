@@ -5,4 +5,5 @@ export { default as Expertise } from "./Expertise";
 export { default as Timeline } from "./Timeline";
 export { default as Project } from "./Project";
 export { default as Contact } from "./Contact";
-export { default as AboutMe } from './AboutMe'; // Ajoutez cette ligne
+export { default as AboutMe } from './AboutMe';
+export { default as ProjectCard } from './ProjectCard';// Ajoutez cette ligne

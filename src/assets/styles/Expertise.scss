@@ -20,7 +20,7 @@
 }
 
 .skills-container {
-  margin: 5% 10%;
+  margin: 5% 5%;
   padding: 2em;
   display: flex;
   flex-direction: column;
@@ -63,6 +63,12 @@
   img {
     height: 52px;
   }
+  h2 {
+    padding: 0.5rem 0 0.5rem 0;
+  }
+  p {
+   font-size: 1rem;
+  } 
 }
 .icon-container {
   display: flex;
@@ -75,7 +81,8 @@
       transform: scale(1.5);
       overflow: visible;
     }
-  }  
+  } 
+  
 }
 .light-mode .icon-container img {
   filter: invert(12%) sepia(97%) saturate(5793%) hue-rotate(267deg) brightness(74%) contrast(123%);
