@@ -23,7 +23,7 @@ function Main() {
         </div>
         <div className="content">
           <div className="title-content">
-          <h1>Poupaux Grégory</h1>
+          <h1>Grégory Poupaux</h1>
           <h2 >Développeur Front-End,</h2><p> spécialisé en UX/UI et accessibilité</p>
           </div>
         </div>

@@ -3,7 +3,7 @@
   background: transparent;
  .container-title {
   align-self: flex-start;
-  margin: 5rem 0 3rem 5rem;
+  margin: 2.5rem 0 3rem 5rem;
  }
 }
 
@@ -60,7 +60,7 @@
 }
 .icon-container {
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
   
   img {
     filter: invert(100%) sepia(1%) saturate(2972%) hue-rotate(55deg) brightness(112%) contrast(101%);

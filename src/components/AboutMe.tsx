@@ -25,7 +25,7 @@ function AboutMe() {
         <div className="aboutCard">
           <h2>
             <i className="fa-solid fa-lightbulb"></i> En tant que développeur
-            front-end, je fais plus qu'écrire du code : :
+            front-end, je fais plus qu'écrire du code :
           </h2>
           <ul className="skills">
             <li>
