@@ -61,7 +61,7 @@ function Contact() {
                 error={nameError}
                 helperText={nameError ? "Merci d'insérer votre nom" : ""}
               />
-              <TextField
+              {/* <TextField
                 required
                 type="text"
                 id="outlined-email"
@@ -75,7 +75,7 @@ function Contact() {
                 helperText={
                   emailError ? "Merci d'entrer votre adresse e-mail ou votre numéro de téléphone" : ""
                 }
-              />
+              /> */}
             </div>
             <TextField
               required
