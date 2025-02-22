@@ -27,8 +27,8 @@ const labelsFirst = [
 function Expertise() {
   return (
     <div className="container" id="expertise">
-      <div className="skills-container">
-        <h1>Compétences</h1>
+      <h1 className="container-title">Compétences</h1>
+      <div className="skills-container">        
         <div className="skills-grid">
           <div className="skill">
             <div className="icon-container">

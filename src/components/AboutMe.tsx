@@ -6,25 +6,26 @@ function AboutMe() {
   return (
     <div className="aboutMe-container bg-origin-border" id="aboutMe">
       <div>
-      <h2 className="aboutH2">
-        <i className="fa-solid fa-rocket"></i>
-        De l’ambulance au code : un parcours guidé par l’humain et la précision
-      </h2>
-      <div className="aboutContent">
-        <p className="aboutPara">
-          Avant d’écrire du code, j’ai passé plusieurs années à prendre soin des
-          gens, d’abord en tant que conseiller client B2B/B2C, puis comme
-          ambulancier. Ces expériences m’ont appris une chose essentielle :{" "}
-          <strong>chaque détail compte.</strong> Aujourd’hui, je mets cette
-          rigueur et cette empathie au service du web.
-        </p>
-        </div>      
+        <h2 className="aboutH2">
+          <i className="fa-solid fa-rocket"></i>
+          De l’ambulance au code : un parcours guidé par l’humain et la
+          précision
+        </h2>
+        <div className="aboutContent">
+          <p className="aboutPara">
+            Avant d’écrire du code, j’ai passé plusieurs années à prendre soin
+            des gens, d’abord en tant que conseiller client B2B/B2C, puis comme
+            ambulancier. Ces expériences m’ont appris une chose essentielle :{" "}
+            <strong>chaque détail compte.</strong> Aujourd’hui, je mets cette
+            rigueur et cette empathie au service du web.
+          </p>
+        </div>
       </div>
       <div className="list-container">
         <div className="aboutCard">
           <h2>
             <i className="fa-solid fa-lightbulb"></i> En tant que développeur
-            front-end, je ne me contente pas d’écrire du code :
+            front-end, je fais plus qu'écrire du code : :
           </h2>
           <ul className="skills">
             <li>
