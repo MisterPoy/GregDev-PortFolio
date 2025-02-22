@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GregDev-PortFolio/static/css/main.9b6a6daa.css",
-    "main.js": "/GregDev-PortFolio/static/js/main.95961c08.js",
+    "main.css": "/GregDev-PortFolio/static/css/main.6f4d2aee.css",
+    "main.js": "/GregDev-PortFolio/static/js/main.7322166c.js",
     "static/js/453.b05d8aa5.chunk.js": "/GregDev-PortFolio/static/js/453.b05d8aa5.chunk.js",
     "static/media/OhMyFood.png": "/GregDev-PortFolio/static/media/OhMyFood.506349621fa5bb6e3030.png",
     "static/media/portfolio.png": "/GregDev-PortFolio/static/media/portfolio.d4aebf44bd6beb9117e1.png",
@@ -22,12 +22,12 @@
     "static/media/fa-v4compatibility.woff2": "/GregDev-PortFolio/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "static/media/NextIcon.svg": "/GregDev-PortFolio/static/media/NextIcon.e3c042b9d9d809ebb67e9bc6e1e5f70d.svg",
     "index.html": "/GregDev-PortFolio/index.html",
-    "main.9b6a6daa.css.map": "/GregDev-PortFolio/static/css/main.9b6a6daa.css.map",
-    "main.95961c08.js.map": "/GregDev-PortFolio/static/js/main.95961c08.js.map",
+    "main.6f4d2aee.css.map": "/GregDev-PortFolio/static/css/main.6f4d2aee.css.map",
+    "main.7322166c.js.map": "/GregDev-PortFolio/static/js/main.7322166c.js.map",
     "453.b05d8aa5.chunk.js.map": "/GregDev-PortFolio/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b6a6daa.css",
-    "static/js/main.95961c08.js"
+    "static/css/main.6f4d2aee.css",
+    "static/js/main.7322166c.js"
   ]
 }
