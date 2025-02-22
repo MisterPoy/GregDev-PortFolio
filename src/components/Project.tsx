@@ -2,6 +2,7 @@ import KasaImg from "../assets/images/kasa.png";
 import OhmyFood from "../assets/images/OhMyFood.png";
 import LinktreeImg from "../assets/images/LinkTree.png"
 import PortFolioImg from "../assets/images/portfolio.png"
+import SophieBluelImg from "../assets/images/sophieBluel.webp"
 import "../assets/styles/Project.scss";
 import ProjectsData from "../data/projects.json";
 import ProjectCard from "./ProjectCard";
@@ -38,7 +39,7 @@ function Project() {
           title={ProjectsData[2].title}
           description={ProjectsData[2].description}
           challenge={ProjectsData[2].challenge}
-          imgUrl={OhmyFood}
+          imgUrl={SophieBluelImg}
           linkUrl={ProjectsData[2].linkUrl}
         />
         <ProjectCard
