@@ -8,23 +8,23 @@ import { useState } from "react";
 
 function Contact() {
   const [name, setName] = useState<string>("");
-  const [email, setEmail] = useState<string>("");
+  /* const [email, setEmail] = useState<string>(""); */
   const [message, setMessage] = useState<string>("");
 
   const [nameError, setNameError] = useState<boolean>(false);
-  const [emailError, setEmailError] = useState<boolean>(false);
+/*   const [emailError, setEmailError] = useState<boolean>(false); */
   const [messageError, setMessageError] = useState<boolean>(false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
     setNameError(name === "");
-    setEmailError(email === "");
+   /*  setEmailError(email === ""); */
     setMessageError(message === "");
 
-    if (name !== "" && email !== "" && message !== "") {
+    if (name !== "" && message !== "") {
       const subject = `Nouveau message de ${name}`;
-      const body = `Nom: ${name}\nEmail: ${email}\n\nMessage: ${message}`;
+      const body = `Nom: ${name}\n\nMessage: ${message}`;
 
       const mailtoUrl = `mailto:gregory.poupaux@hotmail.fr?subject=${encodeURIComponent(
         subject
@@ -60,22 +60,7 @@ function Contact() {
                 }}
                 error={nameError}
                 helperText={nameError ? "Merci d'insérer votre nom" : ""}
-              />
-              {/* <TextField
-                required
-                type="text"
-                id="outlined-email"
-                label="Email/Téléphone"
-                placeholder="E-mail/Télephone ?"
-                value={email}
-                onChange={(e) => {
-                  setEmail(e.target.value);
-                }}
-                error={emailError}
-                helperText={
-                  emailError ? "Merci d'entrer votre adresse e-mail ou votre numéro de téléphone" : ""
-                }
-              /> */}
+              />            
             </div>
             <TextField
               required
