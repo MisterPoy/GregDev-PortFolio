@@ -49,6 +49,13 @@ function Main() {
             >
               <LinkedInIcon />
             </a>
+            <a
+              href="mailto:gregory.poupaux@hotmail.fr"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <EmailIcon />
+            </a>
           </div>
         </div>
         <div className="content">

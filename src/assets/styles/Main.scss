@@ -147,6 +147,9 @@
   @media (max-width: 768px) {
     .about-section {
       gap: 0;
+      .content {
+        justify-content: center;
+      }
       .title-content {
         
         justify-content: space-between;
