@@ -12,7 +12,7 @@ function Contact() {
   const [message, setMessage] = useState<string>("");
 
   const [nameError, setNameError] = useState<boolean>(false);
-/*   const [emailError, setEmailError] = useState<boolean>(false); */
+/*  const [emailError, setEmailError] = useState<boolean>(false); */
   const [messageError, setMessageError] = useState<boolean>(false);
 
   const handleSubmit = (e: React.FormEvent) => {

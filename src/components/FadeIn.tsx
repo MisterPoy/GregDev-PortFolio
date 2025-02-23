@@ -16,7 +16,7 @@ import React, {
     onComplete?: () => any;
   }
   
-  export default function FadeIn(props: PropsWithChildren<Props>) {
+  export const  FadeIn =(props: PropsWithChildren<Props>)=> {
     const [maxIsVisible, setMaxIsVisible] = useState(0);
     const transitionDuration = props.transitionDuration || 400;
     const delay = props.delay || 50;

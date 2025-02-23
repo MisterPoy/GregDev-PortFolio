@@ -1,5 +1,6 @@
 import React from "react";
 
+
 import "../assets/styles/AboutMe.scss";
 
 function AboutMe() {
@@ -70,39 +71,7 @@ function AboutMe() {
               insatiable et une capacité à apprendre vite.
             </li>
           </ul>
-        </div>
-
-        {/* <h2>
-          <i className="fa-solid fa-screwdriver-wrench"></i> Stack technique
-        </h2>
-        <ul className="stack">
-          <li>
-            <i className="fa-brands fa-html5"></i> HTML{" "}
-            <i className="fa-brands fa-css3-alt"></i> CSS{" "}
-            <i className="fa-brands fa-sass"></i> SASS
-          </li>
-          <li>
-            <i className="fa-brands fa-js"></i> JavaScript{" "}
-            <i className="fa-brands fa-react"></i> React
-          </li>
-          <li>
-            <i className="fa-brands fa-git-alt"></i> Git{" "}
-            <i className="fa-brands fa-github"></i> GitHub{" "}
-            <i className="fa-brands fa-npm"></i> npm
-          </li>
-          <li>
-            <i className="fa-solid fa-universal-access"></i> Accessibilité
-            (WCAG)
-          </li>
-          <li>
-            <i className="fa-solid fa-chart-line"></i> SEO & animations avancées
-          </li>
-        </ul>
-
-        <p className="contact">
-          <i className="fa-solid fa-envelope"></i>{" "}
-          <strong>Envie d’échanger ?</strong> Contactez-moi !
-        </p> */}
+        </div>        
       </div>
     </div>
   );

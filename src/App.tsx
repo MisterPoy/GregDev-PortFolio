@@ -9,7 +9,7 @@ import {
   Footer,
   AboutMe
 } from "./components";
-import FadeIn from './components/FadeIn';
+import {FadeIn} from './components/FadeIn';
 import './index.scss';
 
 
