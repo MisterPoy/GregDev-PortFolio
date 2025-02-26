@@ -9,7 +9,7 @@ function Footer() {
     <footer>
       <div>
         <a href="https://github.com/MisterPoy" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-        <a href="https://www.linkedin.com/in/grégory-poupaux-270622328" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+        <a href="https://www.linkedin.com/in/grégory-poupaux" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
         <a
               href="mailto:gregory.poupaux@hotmail.fr"
               target="_blank"

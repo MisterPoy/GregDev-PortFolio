@@ -20,7 +20,7 @@ function Main() {
               <GitHubIcon />
             </a>
             <a
-              href="https://www.linkedin.com/in/grégory-poupaux-270622328"
+              href="https://www.linkedin.com/in/grégory-poupaux"
               target="_blank"
               rel="noreferrer"
             >
@@ -43,7 +43,7 @@ function Main() {
               <GitHubIcon />
             </a>
             <a
-              href="https://www.linkedin.com/in/grégory-poupaux-270622328"
+              href="https://www.linkedin.com/in/grégory-poupaux"
               target="_blank"
               rel="noreferrer"
             >
@@ -62,7 +62,7 @@ function Main() {
           <div className="title-content">
             <h1>Grégory Poupaux</h1>
             <h2>Développeur Front-End,</h2>
-            <p> spécialisé en UX/UI et accessibilité</p>
+            <p> spécialisé en UX/UI et sensible à l'accessibilité</p>
           </div>
         </div>
       </div>
